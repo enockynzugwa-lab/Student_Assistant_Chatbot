@@ -3,7 +3,7 @@ from google import genai
 
 
 # Get Gemini API key
-api_key = st.secrets("GEMINI_API_KEY")
+api_key = st.secrets["GEMINI_API_KEY"]
 
 
 # Create Gemini client
